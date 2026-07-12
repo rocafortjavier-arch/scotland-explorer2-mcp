@@ -1,0 +1,5 @@
+fastmcp>=3.4.0
+httpx>=0.24.0
+astral>=3.2
+pydantic>=2.0
+pytz>=2024.1
