@@ -1,0 +1,29 @@
+# --- secrets — never commit -------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Google service-account keys (uncorked-analytics-mcp/ga-reader-key.json)
+*-key.json
+ga-reader-key.json
+**/credentials.json
+**/client_secret*.json
+
+# --- python -----------------------------------------------------------------
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- node -------------------------------------------------------------------
+node_modules/
+
+# --- runtime state & logs (regenerated, machine-specific) -------------------
+*.log
+notifier_state.json
+*state.json.done
+
+# --- macOS ------------------------------------------------------------------
+.DS_Store
